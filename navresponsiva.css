@@ -1,0 +1,46 @@
+nav{
+    background-color: #233142;
+    padding: 1px 1px 5px 5px;
+    display: inline block;
+    color: white;
+    position: relative;
+}
+ul,h1,input,button,li,form{
+    display: inline-block ;
+    margin-left: 10px;
+
+}
+.button{
+    background-color: #233142;
+    color: green;
+    border:2px solid green;
+    border-radius: 4px;
+    padding: 10px;
+    
+    
+}
+input{
+    border-radius: 4px;
+    padding: 10px;
+}
+select{
+    background-color: #233142;
+    color: white;
+    border: 0px;
+}
+button{
+    background-color: #233142;
+    border: 0px;
+    padding: 10px;
+    font-weight: bold;
+    color: grey;
+}
+.grey{
+    color: grey;
+}
+form{
+    right: 0px;
+    position: absolute;
+    margin: 20px;
+    
+}

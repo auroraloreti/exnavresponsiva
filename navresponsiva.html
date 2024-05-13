@@ -4,28 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="navresponsiva.css" />
   </head>
   <body>
     <nav>
-      <h1>Navbar</h1>
-      <ul>
-        <li>Home</li>
-        <li class="grey">link</li>
-        <li>
-          <select name="Dropdown" class="grey">
-            <option>Dropdown</option>
-            <option>Dropdown 2</option>
-            <option>Dropdown 3</option>
-          </select>
-        </li>
+      <div class="nav">
+        <h1>Navbar</h1>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Hamburger_icon_white.svg/1024px-Hamburger_icon_white.svg.png"
+        />
+      </div>
+      <div class="hamburger">
+        <ul>
+          <li>Home</li>
+          <li class="grey">link</li>
+          <li>
+            <select name="Dropdown" class="grey">
+              <option>Dropdown</option>
+              <option>Dropdown 2</option>
+              <option>Dropdown 3</option>
+            </select>
+          </li>
 
-        <li><button disabled>disabled</button></li>
-      </ul>
-      <form>
-        <input type="text" placeholder="search" />
-        <button class="button">search</button>
-      </form>
+          <li><button disabled>disabled</button></li>
+        </ul>
+        <form>
+          <input type="text" placeholder="search" />
+          <button class="button">search</button>
+        </form>
+      </div>
     </nav>
   </body>
 </html>

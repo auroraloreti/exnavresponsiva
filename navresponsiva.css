@@ -1,9 +1,14 @@
+body{
+    margin: 0%;
+}
+
 nav{
     background-color: #233142;
     padding: 1px 1px 5px 5px;
-    display: inline block;
+    display: flex;
     color: white;
     position: relative;
+
 }
 ul,h1,input,button,li,form{
     display: inline-block ;
@@ -42,5 +47,28 @@ form{
     right: 0px;
     position: absolute;
     margin: 20px;
-    
 }
+img{
+    display: none;
+}
+
+    
+    
+@media screen and (max-width:768px) {
+    .hamburger{
+        display: none;
+    }
+    img{
+        width: 25px;
+        justify-content: center;
+        padding: 10px;
+        display: flex;
+        align-self: center;
+    }
+    
+    .nav{display: flex;
+    justify-content: center;
+        
+}
+}
+ 
